@@ -14,7 +14,7 @@ Set up a basic Node.js project with Express.js and other necessary NPM packages.
 
 Implement a RESTful API with the following endpoints:
 
- POST /regiter: Register new user.
+ POST /register: Register new user.
 
  POST /login: Login existing user.
 
