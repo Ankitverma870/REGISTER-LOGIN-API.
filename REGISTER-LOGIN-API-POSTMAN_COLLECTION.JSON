@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "2036e308-a755-4358-9576-a9995d9ef2a6",
+		"name": "User Authentication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "32259963"
+	},
+	"item": [
+		{
+			"name": "User Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Ankit verma\",\r\n    \"email\": \"ankitverma0288@gmail.com\",\r\n    \"password\": \"Ankit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/user/register"
+			},
+			"response": []
+		},
+		{
+			"name": "User Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"Ankit verma\",\r\n    \"password\": \"Ankit\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/user/login"
+			},
+			"response": []
+		}
+	]
+}
