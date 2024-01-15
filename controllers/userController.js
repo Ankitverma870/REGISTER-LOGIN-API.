@@ -6,7 +6,9 @@ const registerUser = (req, res) => {
   try {
     const newUser = userService.registerUser(username, email, password);
     res.status(201).json({ message: 'User registered successfully', user: newUser });
-  } catch (error) {
+
+  }
+  catch (error) {
     res.status(400).json({ error: error.message });
   }
 };
